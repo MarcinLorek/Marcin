@@ -1,0 +1,22 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.hprof
+/app/build/
+/app/release/
+/app/debug/
+
+# Backend (Python)
+backend/__pycache__/
+backend/.venv/
+*.pyc
+
+# Wygenerowane przez workflow danych KNF - dane zostają w repo (docs/data),
+# ale nie ich lokalne artefakty pomocnicze.

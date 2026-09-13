@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPW Short</string>
+
+    <!-- Ekran listy -->
+    <string name="list_title">Krótkie pozycje na GPW</string>
+    <string name="list_search_placeholder">Szukaj spółki…</string>
+    <string name="list_sort_percent">Sumaryczny %</string>
+    <string name="list_sort_change">Największa zmiana</string>
+    <string name="list_sort_alpha">Alfabetycznie</string>
+    <string name="list_last_update">Dane KNF z dnia %1$s</string>
+    <string name="list_last_update_stale">Dane z dnia %1$s (nieaktualne, brak internetu)</string>
+    <string name="list_empty">Brak otwartych pozycji krótkich w rejestrze KNF.</string>
+    <string name="list_holders_count">%1$d podmiotów</string>
+    <string name="list_holder_count_single">1 podmiot</string>
+
+    <!-- Ekran szczegółów -->
+    <string name="detail_range_30d">30 dni</string>
+    <string name="detail_range_90d">90 dni</string>
+    <string name="detail_range_1y">1 rok</string>
+    <string name="detail_range_max">Max</string>
+    <string name="detail_history_header">Historia zmian</string>
+    <string name="detail_holders_header">Podmioty utrzymujące pozycję</string>
+    <string name="detail_no_history">Brak danych historycznych dla wybranego zakresu.</string>
+    <string name="detail_closed_position">Pozycja zamknięta – spółka nie występuje już w aktualnym rejestrze KNF.</string>
+    <string name="detail_closed_since">Zamknięta %1$s</string>
+    <string name="detail_add_watchlist">Dodaj do obserwowanych</string>
+    <string name="detail_remove_watchlist">Usuń z obserwowanych</string>
+    <string name="detail_isin">ISIN: %1$s</string>
+
+    <!-- Podsumowania trendu -->
+    <string name="trend_rising">Pozycja rośnie od %1$d dni, %2$s w ciągu ostatniego miesiąca.</string>
+    <string name="trend_falling">Pozycja maleje od %1$d dni, %2$s w ciągu ostatniego miesiąca.</string>
+    <string name="trend_flat">Pozycja stabilna od %1$d dni.</string>
+    <string name="trend_new">Nowa pozycja w rejestrze, brak wcześniejszej historii.</string>
+    <string name="trend_insufficient_data">Za mało danych historycznych, aby ocenić trend.</string>
+
+    <!-- Wspólne -->
+    <string name="common_retry">Spróbuj ponownie</string>
+    <string name="common_error_generic">Nie udało się pobrać danych z rejestru KNF.</string>
+    <string name="common_error_network">Brak połączenia z internetem.</string>
+    <string name="common_error_parsing">Struktura strony KNF uległa zmianie – parser wymaga aktualizacji.</string>
+    <string name="common_loading">Wczytywanie…</string>
+    <string name="common_change_up">Wzrost</string>
+    <string name="common_change_down">Spadek</string>
+    <string name="common_change_none">Bez zmian</string>
+    <string name="common_back">Wstecz</string>
+
+    <!-- Watchlista -->
+    <string name="watchlist_title">Obserwowane</string>
+    <string name="watchlist_empty">Nie obserwujesz jeszcze żadnej spółki. Dodaj ją z ekranu szczegółów.</string>
+    <string name="watchlist_threshold_label">Próg powiadomienia: %1$s p.p.</string>
+
+    <!-- Powiadomienia -->
+    <string name="notification_channel_name">Zmiany pozycji krótkich</string>
+    <string name="notification_channel_description">Powiadomienia o istotnych zmianach pozycji krótkich na obserwowanych spółkach</string>
+    <string name="notification_title">%1$s: zmiana pozycji krótkiej</string>
+    <string name="notification_body">Pozycja krótka zmieniła się o %1$s p.p. (obecnie %2$s%%).</string>
+
+    <!-- Nawigacja -->
+    <string name="nav_list">Lista</string>
+    <string name="nav_watchlist">Obserwowane</string>
+</resources>
