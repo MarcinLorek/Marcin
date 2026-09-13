@@ -15,7 +15,6 @@ import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
-import androidx.compose.material3.PullToRefreshBox
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material.icons.Icons
@@ -34,6 +33,7 @@ import pl.mlorek.gpwshort.domain.model.IssuerSummary
 import pl.mlorek.gpwshort.domain.model.SortOrder
 import pl.mlorek.gpwshort.ui.components.ChangeIndicator
 import pl.mlorek.gpwshort.ui.components.ErrorView
+import pl.mlorek.gpwshort.ui.components.PullToRefreshBox
 import pl.mlorek.gpwshort.ui.components.ShimmerListPlaceholder
 import pl.mlorek.gpwshort.ui.components.messageFor
 import pl.mlorek.gpwshort.util.formatDate

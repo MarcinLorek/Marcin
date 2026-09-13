@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
@@ -23,7 +24,6 @@ import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.PullToRefreshBox
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
@@ -43,6 +43,7 @@ import pl.mlorek.gpwshort.domain.model.TrendSummary
 import pl.mlorek.gpwshort.ui.components.ChangeIndicator
 import pl.mlorek.gpwshort.ui.components.ErrorView
 import pl.mlorek.gpwshort.ui.components.PositionHistoryChart
+import pl.mlorek.gpwshort.ui.components.PullToRefreshBox
 import pl.mlorek.gpwshort.ui.components.ShimmerListPlaceholder
 import pl.mlorek.gpwshort.ui.components.messageFor
 import pl.mlorek.gpwshort.util.formatDate
