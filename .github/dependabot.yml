@@ -1,0 +1,27 @@
+# Dependabot: cotygodniowe sprawdzanie aktualizacji zależności.
+# Gdy dodasz aplikację, odkomentuj blok pasujący do jej technologii
+# (i ustaw "directory" na folder, w którym leży plik zależności).
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Android / Kotlin / Java (build.gradle, build.gradle.kts)
+  # - package-ecosystem: "gradle"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+
+  # JavaScript / rozszerzenie przeglądarki (package.json)
+  # - package-ecosystem: "npm"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"
+
+  # Python (requirements.txt, pyproject.toml)
+  # - package-ecosystem: "pip"
+  #   directory: "/"
+  #   schedule:
+  #     interval: "weekly"

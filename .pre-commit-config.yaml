@@ -1,0 +1,14 @@
+# Lokalne sprawdzanie przed każdym commitem.
+# Jednorazowa instalacja:   pip install pre-commit && pre-commit install
+# Ręczne uruchomienie:      pre-commit run --all-files
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.29.1
+    hooks:
+      - id: gitleaks
+
+  - repo: https://github.com/semgrep/pre-commit
+    rev: v1.99.0
+    hooks:
+      - id: semgrep
+        args: ["--config", "p/default", "--error", "--skip-unknown-extensions", "--metrics=off"]
